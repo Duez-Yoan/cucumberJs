@@ -23,7 +23,7 @@ module.exports = {
         ],
         tags: argv.tags || process.env.npm_config_tags,
         parallel: 12,
-        retry: 1,
+        retry: 0,
         timeout: 20000,
         pretty: true,
         dryRun:false,

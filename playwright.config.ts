@@ -7,7 +7,7 @@ export default defineConfig({
         actionTimeout: 20000,
 
         // Run tests in headless browsers.
-        headless: true,
+        headless: false,
 
         // Capture screenshot after each test failure.
         screenshot: 'on',
